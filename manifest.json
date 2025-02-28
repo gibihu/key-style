@@ -1,11 +1,14 @@
 {
 	"id": "obsidian-example-plugin",
-	"name": "Example Plugin",
+	"name": "Key Style",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is an example plugin for Obsidian. This plugin counts the lines of the active file and prints it in the status bar.",
-	"author": "Florian Ludewig",
-	"authorUrl": "https://flolu.de",
-	"fundingUrl": "https://flolu.de/donations",
-	"isDesktopOnly": false
+	"description": "This plugin allows you to specify certain characters as a quick style.",
+	"author": "Lay",
+	"authorUrl": "https://qoochub.com",
+	"fundingUrl": "https://blog.qoochub.com/user/optimus_prime",
+	"isDesktopOnly": false,
+	"styles": [
+		"style.css"
+  	]
 }
