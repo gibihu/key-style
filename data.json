@@ -1,0 +1,21 @@
+{
+  "enableFeature": true,
+  "textOption": "Hello, Obsidian!",
+  "DetectPlusToColor": "green",
+  "action": [
+    {
+      "id": 1,
+      "detect": "++",
+      "addDetect": true,
+      "style": "color: #00db31;",
+      "position": "start"
+    },
+    {
+      "id": 2,
+      "detect": "--",
+      "addDetect": true,
+      "style": "color: red;",
+      "position": "start"
+    }
+  ]
+}
